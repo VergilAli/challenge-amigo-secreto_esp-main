@@ -1,10 +1,10 @@
 
 let amigos = [];
 
-function capturaAmigo(){
+function capturaAmigo() {
     let nombre = document.getElementById("nombre").value.trim();
 
-    if (nombre === ""){
+    if (nombre === "") {
         alert("Introduce un nombre valido.");
         return;
     }
